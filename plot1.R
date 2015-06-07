@@ -1,4 +1,5 @@
 ## Exploratory Data Analysis Course Project 1, plot 1
+## This script assumes that the data file is in the working directory
 data <- read.table("household_power_consumption.txt", header=TRUE, sep=";", stringsAsFactors=FALSE)
 
 # Subset on dates in the range 2007-02-01 and 2007-02-02
